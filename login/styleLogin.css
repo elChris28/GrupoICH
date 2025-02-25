@@ -1,0 +1,66 @@
+body
+{
+    background: linear-gradient(135deg, #1a1a1a, #2c2c2c);
+}
+
+/* Ocultar mensajes de error */
+.hidden {
+    display: none;
+}
+
+/* Contenedor del login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* Caja del login */
+.login-box {
+    background: #222;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+.login-box h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: white;
+}
+
+.btn-1 {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(90deg, #ff4b2b, #ff416c);
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-1:hover {
+    background: #ff416c;
+}
+
+/* Mensaje de error */
+#error-message {
+    margin-top: 10px;
+    color: red;
+    font-size: 14px;
+}
