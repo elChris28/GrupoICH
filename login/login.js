@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (validUser) {
                 localStorage.setItem("loggedIn", "true");
-                localStorage.setItem("user", username); // Guardar usuario en localStorage
-                window.location.href = validUser.redirectTo; // 🔥 Redirigir según el usuario
+                localStorage.setItem("user", username); 
+                window.location.href = validUser.redirectTo; 
             }  else {
                 errorMsg.textContent = "Usuario o contraseña incorrectos.";
             }

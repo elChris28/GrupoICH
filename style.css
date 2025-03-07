@@ -9,6 +9,7 @@
     list-style: none;
 }
 
+
 body
 {
     background-image: linear-gradient(to top right, rgb(233, 51, 51), orange);
@@ -62,6 +63,12 @@ body
     z-index: 1000;
 }
 
+header {
+    background: linear-gradient(to right, #e9c466, #eda812); /* Degradado naranja */
+    padding: 15px 0;
+    text-align: center;
+}
+
 .navbar
 {
     display: flex;
@@ -111,7 +118,7 @@ body
 
 .social img
 {
-    margin: 8px 0 0 10px;
+    margin: 8px;
 }
 
 .menu .navbar ul li
